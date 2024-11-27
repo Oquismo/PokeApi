@@ -1,54 +1,55 @@
-# Astro Starter Kit: Basics
+PokeAPI
+PokeAPI es un proyecto diseñado para explorar y visualizar información sobre Pokémon. Utiliza datos de una API para mostrar características, estadísticas y detalles sobre los Pokémon de manera atractiva y funcional.
 
-```sh
-npm create astro@latest -- --template basics
-```
+🚀 Características
+Lista completa de Pokémon con búsqueda interactiva.
+Detalles individuales de cada Pokémon, incluyendo habilidades, estadísticas y tipos.
+Diseño responsivo y amigable para diferentes dispositivos.
+Funcionalidades interactivas como hover effects y animaciones.
+Uso de tecnologías modernas como Astro, React, Firebase, Koa, y Tailwind CSS.
+🛠️ Tecnologías Utilizadas
+Astro: Para construir la interfaz del proyecto.
+React: Para componentes interactivos.
+Firebase: Para manejar la autenticación, base de datos y hosting.
+Koa: Para configurar el servidor backend.
+Tailwind CSS: Para estilos rápidos y eficientes.
+PokeAPI: API utilizada para obtener los datos sobre Pokémon.
+📦 Instalación
+Clona este repositorio:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+bash
+Copiar código
+git clone https://github.com/tu-usuario/tu-repo.git
+cd tu-repo
+Instala las dependencias:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+bash
+Copiar código
+npm install
+Configura las variables de entorno en un archivo .env:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+env
+Copiar código
+API_URL=https://pokeapi.co/api/v2/
+FIREBASE_API_KEY=tu_clave_de_api
+FIREBASE_AUTH_DOMAIN=tu_dominio_de_autenticacion
+Inicia el servidor de desarrollo:
 
-## 🚀 Project Structure
+bash
+Copiar código
+npm run dev
+🖼️ Capturas de Pantalla
+Página Principal
+(Agrega una imagen aquí mostrando la lista de Pokémon)
 
-Inside of your Astro project, you'll see the following folders and files:
+Detalles del Pokémon
+(Agrega una imagen aquí mostrando los detalles de un Pokémon específico)
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+🌟 Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas colaborar, sigue estos pasos:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Haz un fork del repositorio.
+Crea una rama para tu funcionalidad o corrección: git checkout -b feature/nueva-funcionalidad.
+Realiza tus cambios y haz un commit: git commit -m 'Agrega nueva funcionalidad'.
+Envía tu rama a este repositorio: git push origin feature/nueva-funcionalidad.
+Abre un Pull Request.
