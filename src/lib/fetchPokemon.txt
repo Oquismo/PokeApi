@@ -1,1 +1,0 @@
-export declare function fetchPokemonList(limit?: number): Promise<{ name: string; url: string }[]>;
